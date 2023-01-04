@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .progresses {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20PX;
+}
+.container .progresses .progress_bar {
+  width: 350px;
+  height: 20px;
+  background-color: rgb(133, 132, 132);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.container .progresses .progress_bar .load {
+  width: 0%;
+  background-color: red;
+  height: 100%;
+  border-radius: 20px;
+  position: absolute;
+  transition: 2s;
+}/*# sourceMappingURL=style.css.map */
